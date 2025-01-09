@@ -1,0 +1,23 @@
+{
+  "name": "oss-npm-package-workshop",
+  "version": "0.0.1",
+  "description": "Workshop for developing Open Source NPM packages.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "workshop",
+    "npm",
+    "package",
+    "open-source"
+  ],
+  "author": "Shreyash (WebDevCaptain)",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
