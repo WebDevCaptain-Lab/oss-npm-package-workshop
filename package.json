@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "vitest"
+    "test:watch": "vitest",
+    "test": "vitest run",
+    "prepare": "husky"
   },
   "keywords": [
     "workshop",
@@ -18,6 +20,7 @@
   "author": "Shreyash (WebDevCaptain)",
   "license": "MIT",
   "devDependencies": {
+    "husky": "^9.1.7",
     "vitest": "^2.1.8"
   }
 }
