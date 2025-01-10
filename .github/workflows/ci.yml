@@ -11,6 +11,9 @@ on:
       - main
       - dev
 
+  issues:
+    types: [opened, reopened]
+
   workflow_dispatch:
 
 jobs:
@@ -31,9 +34,3 @@ jobs:
 
       - name: Run test suites
         run: npm run test
-
-      - name: Print message
-        run: echo "All tests passed. 🎉  :)"
-
-      - name: Print github context for demo
-        run: echo "${{ toJson(github) }}"
