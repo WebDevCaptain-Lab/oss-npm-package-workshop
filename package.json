@@ -21,6 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "^9.1.7",
+    "prettier": "^3.4.2",
     "vitest": "^2.1.8"
   }
 }
