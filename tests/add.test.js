@@ -44,4 +44,14 @@ describe("Test add function", () => {
 
     expect(res).toBe(expected);
   });
+
+  it("should add two decimal numbers with opposite signs", () => {
+    const firstNum = -3.5;
+    const secondNum = 2.5;
+    const expected = -1;
+
+    const res = add(firstNum, secondNum);
+
+    expect(res).toBe(expected);
+  });
 });
