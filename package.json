@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Workshop for developing Open Source NPM packages.",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "test": "tests"
   },
@@ -11,7 +12,8 @@
     "test": "vitest run",
     "prepare": "husky",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "commit": "commit"
   },
   "keywords": [
     "workshop",
@@ -22,6 +24,9 @@
   "author": "Shreyash (WebDevCaptain)",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/prompt-cli": "^19.7.0",
     "@eslint/js": "^9.18.0",
     "eslint": "^9.18.0",
     "globals": "^15.14.0",
