@@ -34,4 +34,14 @@ describe("Test add function", () => {
 
     expect(res).toBe(expected);
   });
+
+  it("should add two numbers with decimals", () => {
+    const firstNum = 3.5;
+    const secondNum = 2.5;
+    const expected = 6;
+
+    const res = add(firstNum, secondNum);
+
+    expect(res).toBe(expected);
+  });
 });
