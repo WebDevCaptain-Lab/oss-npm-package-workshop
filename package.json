@@ -26,7 +26,14 @@
     "eslint": "^9.18.0",
     "globals": "^15.14.0",
     "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
     "prettier": "^3.4.2",
     "vitest": "^2.1.8"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
