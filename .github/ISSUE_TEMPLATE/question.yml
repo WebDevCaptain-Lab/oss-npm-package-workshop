@@ -1,0 +1,30 @@
+name: "Question or Support"
+description: "Ask a question or request support for Mathy Lib."
+title: "[Question]: <Your Question>"
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question or need help? Let us know by filling out the form below.
+
+  - type: input
+    id: question_summary
+    attributes:
+      label: "Question Summary"
+      description: "What is your question?"
+      placeholder: "e.g., How do I use the multiply function?"
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "Provide additional details about your question or problem."
+      placeholder: "Include code examples, error logs, or other details."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Context"
+      description: "Add any other relevant information."
+      placeholder: "Screenshots, links to documentation, etc."

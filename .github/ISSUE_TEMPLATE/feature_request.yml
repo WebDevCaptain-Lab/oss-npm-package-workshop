@@ -1,0 +1,44 @@
+name: "Feature Request"
+description: "Suggest a new feature or enhancement for Mathy Lib."
+title: "[Feature]: <Brief Description>"
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We'd love to hear your ideas for improving Mathy Lib! Please fill out the form below.
+
+  - type: input
+    id: feature_summary
+    attributes:
+      label: "Feature Summary"
+      description: "Briefly describe the new feature or enhancement."
+      placeholder: "e.g., Add a function for subtracting numbers."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Provide a detailed explanation of the feature."
+      placeholder: "The subtract function should return the difference of two numbers."
+
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: "Use Cases"
+      description: "Describe how this feature would be used."
+      placeholder: "This function will be used to perform simple subtraction operations."
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives"
+      description: "List any alternative solutions or features you've considered."
+      placeholder: "Using external libraries for subtraction, but it's not ideal for our lightweight library."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Context"
+      description: "Add any other relevant information or screenshots."
+      placeholder: "Provide examples, links, or other supporting details."
